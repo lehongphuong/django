@@ -31,6 +31,8 @@ ALLOWED_HOSTS = [u'18.211.128.209', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'jet.dashboard',
+    'jet',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

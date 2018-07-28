@@ -11,20 +11,26 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <!-- Start your project here-->
+    <!-- Start your project here-->
+    <!-- Start your project here-->
+    <div class="container">
         <div class="row">
-            {% block header %} {% endblock %}
+            {% include "content/header.html" %}
         </div>
         <div class="row">
-            {% block menu %} {% endblock %}
+            {% include "content/menu.html" %}
         </div>
         <div class="row">
-            {% block content %} {% endblock %}
+            {% include "content/content.html" %}
         </div>
         <div class="row">
-            {% block footer %} {% endblock %}
+            {% include "content/footer.html" %}
         </div>
     </div>
+    <!-- /Start your project here-->
+    <!-- /Start your project here-->
+    <!-- /Start your project here-->
 </body>
 
 </html>

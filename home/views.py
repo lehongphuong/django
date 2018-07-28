@@ -8,6 +8,9 @@ from django.http import HttpResponse
 def home(request):
    return render(request,"pages/home.html")
 
+def index(request):
+   return render(request,"pages/index.html")
+
 def header(request):
    return render(request,"content/header.html")
 
